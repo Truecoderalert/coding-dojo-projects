@@ -1,0 +1,13 @@
+var likes = ;
+
+var likecount = Document.queryselector(".likebtn");
+
+
+function addlike(){
+likes++;
+}
+
+likecount.innerHTML = (likes) + "likes";
+
+
+
