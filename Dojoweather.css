@@ -1,0 +1,138 @@
+.topnav{
+display:  flex;
+justify-content: space-between;
+background-color: aqua;
+color: white;
+}
+.topnav button{
+background-color: aqua;
+height: 45px;
+color: white;
+align-content: center;
+}
+.midnav{
+display: flex;
+gap: 62%;
+text-decoration: underline;
+}
+.Today{
+margin-left: 11%;
+margin-top: 120px;
+    background-color: grey;
+width: 220px;
+height: 360px;
+align-content: center;
+text-align: center;
+}
+
+.Todaystemps{
+    display: flex;
+    margin-left: 12px;
+    gap: 130px;
+}
+.todayredtext{
+    color: red;
+}
+.todaybluetext{
+    color: blue;
+}
+.Tommorow{
+    
+    background-color: grey;
+width: 220px;
+height: 360px;
+align-content: center;
+text-align: center;
+margin-top: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+.friday{
+    background-color: grey;
+    width: 220px;
+    height: 360px;
+    align-content: center;
+    text-align: center;
+    margin-top: 120px;
+}
+
+.tommorowstemps{
+    display: flex;
+    margin-left: 12px;
+    gap: 130px;
+}
+.tommorowredtext{
+    color: red;
+}
+.tommorowbluetext{
+    color: blue;
+}
+
+
+
+.fridaystemps{
+margin-left: 12px;
+display: flex;
+gap: 130px;
+}
+
+.fridayredtext{
+color: red;
+}
+.fridaybluetext{
+color: blue;
+}
+
+
+
+
+.days{
+display: flex;
+gap: 100px;
+}
+
+.days img {
+max-width: 100px;
+
+}
+.Saturday{
+    background-color: grey;
+    width: 220px;
+    height: 360px;
+    align-content: center;
+    text-align: center;
+    margin-top: 120px;
+}
+.saturdaytemps{
+    display: flex;
+    margin-left: 12px;
+display: flex;
+gap: 130px;
+}
+.satredtext{
+    color: red;
+}
+.bluetext{
+color: blue;
+}
+.acceptbox{
+    border-style: solid;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    background-color: gainsboro;
+width: 50%;
+float: right;
+}
+.acceptbox button{
+color: black;
+background-color: aqua;
+
+}

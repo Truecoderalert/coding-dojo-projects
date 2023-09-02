@@ -1,0 +1,15 @@
+.card{height: 300px;
+    width: 700px;
+    background-color: #f3f6f8;
+    display: inline-flexbox;
+    justify-content: center;
+    border-style: solid;
+    }
+    img{max-width: 30px;
+    max-height: 30px;
+    }
+    .location{display: flex;}
+    .editp{text-decoration: underline;
+    color: blue;
+    }
+    .profilepic{background-color: blue;}

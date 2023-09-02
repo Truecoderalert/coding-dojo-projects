@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID card</title>
+</head>
+<link rel="stylesheet" href="/Users/redtrapstar45/Desktop/id card/css id card">
+<body>
+<div  class="card">
+ <div                 
+    class="profilepic">
+    <img src="https://freesvg.org/img/abstract-user-flat-4.png" alt="photoimageicon">
+    
+</div>
+<h3>Jane Doe</h3>    
+
+    <div class="location">
+        <p>seattle</p>
+        <img src="https://cdn-icons-png.flaticon.com/512/64/64665.png" alt="location cdn-icons-png">
+</div>
+    
+
+<div class="editp">
+<p>edit profile</p>
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

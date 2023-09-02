@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Dojoweather.css">
+    <script src="dojoweather.js"></script>
+</head> 
+<body>
+
+    <div class="fullpage" onmouseenter="cookies()">
+
+        <div  class="topnav">
+            <h1>DojoWeather</h1>
+            <button onclick="weatheralert()">Burbank</button>
+            <button onclick="weatheralert()">Chicago</button>
+            <button onclick="weatheralert()">Dallas</button>
+        </div>
+        <div class="midnav">
+            <h3>San Jose</h3>
+            <p>Show tempeture in
+                <select name="Tempeture type" id="">
+                    <option value="Celcius">Celcius</option>
+                    <option onclick="realheat(this)" value="Fereinheit">Fereinheit</option>
+                </p>
+            </select>
+        </div>
+        <div class="days">
+            
+            <div class="Today">
+        <h4>Today</h4>
+        <img src="rain" alt="">
+<p>Some Rain</p>
+<div class="Todaystemps">
+    <div class="todayredtext">
+        <h2>24</h2>
+    </div>
+    <div class="todaybluetext">
+        <h2>16</h2>
+    </div>
+        </div>
+    </div>
+    
+    
+    <div class="Tommorow">
+        <h4>Tommorow</h4>
+        <img src="sun" alt="">
+        <p>Some sun</p>
+        <div class="tommorowstemps">
+            <div class="tommorowredtext">
+                <h2>27</h2>
+            </div>
+            <div class="tommorowbluetext">
+                <h2>19</h2>
+            </div>
+        </div>
+    </div>
+    <div class="friday">
+        <h4>friday</h4>
+        <img src="./clouds" alt="">
+        <p>Some clouds</p>
+        <div class="fridaystemps">
+            
+            <div class="fridayredtext">
+                <h2>21</h2>
+            </div>
+            <div class="fridaybluetext">
+                <h2>16</h2>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    <div class="Saturday">
+<h4>Saturday</h4>
+<img src="sun" alt="">
+<p>some sun </p>
+<div class="saturdaytemps">
+    <div class="satredtext">
+        <h2>26</h2>
+    </div>
+    <div class="bluetext">
+        <h2>21</h2>
+    </div>
+    
+    
+</div>
+
+
+</div>
+</div>
+</div>
+</div>
+<div class="acceptbox">
+    <h2>Stop Cookie Time</h2>
+    <p onmousemove="wegotcookies()" >We use cookies (sadly not the edible ones) to personalize content and adds to provide social media features and anylize our traffic.</p>
+    <button onclick="closedcookiejar()"> I accept</button>
+
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
