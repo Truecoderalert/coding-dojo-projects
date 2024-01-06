@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='results.css') }}">
+</head>
+<body>
+    <table class="table">
+        <thead>
+          <tr>
+            <th scope="col">First name</th>
+            <th scope="col">Last name</th>
+            <th scope="col">notes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            
+            <td>{{first_name}}</td>
+            <td>{{last_name}}</td>
+            <td>{{notes}}</td>
+          </tr>
+         
+        </tbody>
+      </table>
+</body>
+</html>
