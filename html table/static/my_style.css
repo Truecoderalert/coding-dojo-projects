@@ -1,0 +1,14 @@
+table{
+width: 1000px;
+height: 420px;
+margin-left: 80px;
+border-style: solid;
+display: inline-table;
+background-color: black;
+}
+td{
+    border-style: solid;
+    color: aliceblue;
+}
+
+
