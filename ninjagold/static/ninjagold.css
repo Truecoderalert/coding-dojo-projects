@@ -1,0 +1,17 @@
+form{
+    margin-top: 200px;
+    display: inline-flex;
+}
+input{margin-left: 0px;
+display: inline-flex;
+
+}
+img{max-height: 120px;
+margin-left: 30px;}
+h5{margin-left: 50%;
+}
+.one{border-style: groove;}
+.two{border-style: groove;margin-left: 12px;}
+.three{border-style: groove;margin-left: 12px;}
+.four{border-style: groove;margin-left: 12px;}
+h2{text-align: center;}

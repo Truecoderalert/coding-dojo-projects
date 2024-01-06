@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='ninjagold.css') }}">
+</head>
+<body>
+    <h2>
+        {{session.gold}}
+    </h2>
+
+        
+    
+    <form action="/showinfo" method="post">
+        <div class="one">
+            <img src="{{ url_for('static', filename='houseimg.jpeg') }}">
+            <label for="house"></label>
+            <p>
+                Gain 2-5 gold coins from your house
+            </p>
+            <input type="radio" value="house" name="place" class="house" >
+        </div>
+            
+
+        <div class="two">
+            <img src="{{ url_for('static', filename='farmwalimg.jpeg') }}">
+            <label for="farm"></label>
+            <p>     Gain 10-20 gold coins from your Farm</p>
+            <input type="radio" value="farm" name="place" class="farm">
+        </div>
+
+        <div class="three">
+            <img src="{{ url_for('static', filename='cavewalimg.jpeg') }}">
+            <label for="cave"></label>
+            <p>Gain 5-10 gold coins from your cave</p>
+            <input type="radio" value="cave" name="place" class="cave">
+        </div>
+<div class="four">
+    <img src="{{ url_for('static', filename='casinoimg.jpeg') }}">
+    <label for="casino"></label>
+    <p>Risk gaining or losing 25 gold coins at the casino</p>
+    <input type="radio" value="casino" name="place" class="casino">
+</div>
+
+    <input type="submit" value="check balance" >
+    </form>
+    <a href="/reset">reset</a>
+
+</body>
+</html>
