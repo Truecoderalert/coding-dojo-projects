@@ -1,0 +1,6 @@
+.full{display: flex;background-color: black;color: aliceblue;}
+.last_name{margin-left: 37%;font-family: cursive;}
+.first_name{margin-left: 25%;font-family:cursive;}
+button{background-color: black;margin-left: -280%; padding: 5px;}
+h2{color: burlywood;}
+a{text-decoration: none;color: azure;padding: 25px;}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='userscrResults.css') }}">
+</head>
+<body>
+    <div class="full">
+        <div class="first_name">
+            <h2>first name</h2>
+            {%for user in users%}
+            <p>{{user.first_name}}</p>  
+            {%endfor%}
+        </div>
+        <div class="last_name">
+            <h2>last name</h2>
+            {%for user in users%}
+            <p>{{user.last_name}}</p>  
+            {%endfor%}
+            <button><a href="/">add user</a></button> 
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,4 @@
+form{margin-top: 5%;margin-left: 22%;padding: 70px;background-color: gray;width: fit-content;border-style: groove;height: 300px;border-radius: 25px;}
+input{display: flex;margin-left: -70px;}
+label{margin-left: -70px;}
+a{text-decoration: none;color: black;}
